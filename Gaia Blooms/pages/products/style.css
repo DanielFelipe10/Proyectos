@@ -1,0 +1,33 @@
+.article {
+    padding: 8rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card {
+    width: 300px;
+}
+
+.card ul {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card__picture {
+    height: 100%;
+    width: 100%;
+}
+.card__picture img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    margin-bottom: 2rem;
+}
+
+.card__title {
+    text-overflow: ellipsis;
+    overflow-wrap: normal;
+}
