@@ -1,0 +1,112 @@
+.Search input {
+    width: 300px;
+    font-family: 'Lato' sans-serif;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+.Slogan {
+    font-family: 'Caveat', cursive;
+    color: #fff;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./Media/Flowers3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Slogan > p {
+    font-size: 4rem;
+    text-align: center;
+}
+
+section {
+    font-size: 1.5rem;
+    margin: 1rem;
+    width: 80%;
+    margin: 5rem auto;
+}
+
+.Suscribe-main {
+    height: 550px;
+    background-image: url(./Media/Flowers.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+}
+
+.Suscribe {
+    background-color: #f9f9f9;
+    position: relative;
+    margin: auto;
+    width: 40%;
+    border: 2px #f9f9f9 solid;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.Suscribe:hover {
+    background: black;
+    color: white;
+    border: black;
+}
+
+.Suscribe h1 {
+    margin: 50px auto 35px;
+    font-size: 5em;
+}
+
+.Suscribe p {
+    font-family: 'Lato', sans-serif;
+}
+
+.Email {
+    font-family: 'Lato', sans-serif;
+    width: 50%;
+    margin: 15px auto;
+    border: 1px solid black;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    text-align: center;
+    caret-color: #ff4d4d;
+}
+
+.Button {
+    display: flex;
+    align-items: center;
+    margin: 10px auto 20px;
+    padding: 15px 25px;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background: #ff9494;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Button:hover {
+    background: #ff4d4d;
+    color: white;
+}
+
+@media screen and (max-width: 586px) {
+    .Products ul {
+        gap: 0;
+    }
+
+    .Slogan > p {
+        font-size: 3rem;
+    }
+}
