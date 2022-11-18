@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    background: white;
+    font-family: 'Caveat', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+header > h1 a {
+    font-size: 2rem;
+    color: #ff4d4d;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+header h1 a:hover {
+    color: #000;
+}
+
+.Products {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 30px;
+    height: 80px;
+}
+
+.Products nav {
+    display: flex;
+    width: 100%;
+    transition: 1s;
+}
+
+.Products nav:hover {
+    background: black;
+    color: white;
+}
+
+.Products ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Products a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    padding: 25px 0;
+    transition: 1s;
+}
+
+.Products a:hover {
+    color: #ff4d4d;
+}
+
+@media screen and (max-width: 586px) {
+    header {
+        padding: 2rem 2px;
+        height: 40px;
+    }
+    header > h1 a,
+    .Products ul a {
+        font-size: 1.3rem;
+        padding: 0;
+        align-items: center;
+    }
+}

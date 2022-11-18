@@ -1,28 +1,3 @@
-body {
-    font-family: 'Caveat', cursive;
-}
-
-header {
-    position: fixed;
-    width: 100vw;
-    background: white;
-    font-family: 'Caveat', cursive;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 40px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-
-header > h1 {
-    font-size: 2rem;
-}
-
-header .Search {
-    display: flex;
-    margin: auto;
-}
-
 .Search input {
     width: 300px;
     font-family: 'Lato' sans-serif;
@@ -39,7 +14,7 @@ header .Search {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(Flowers3.webp);
+    background-image: url(./Media/Flowers3.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -58,45 +33,9 @@ section {
     margin: 5rem auto;
 }
 
-.Products {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    font-size: 30px;
-    height: 80px;
-}
-
-.Products nav {
-    display: flex;
-    width: 100%;
-    transition: 1s;
-}
-
-.Products nav:hover {
-    background: black;
-    color: white;
-}
-
-.Products ul {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.Products li {
-    cursor: pointer;
-    display: flex;
-    padding: 25px 0;
-    transition: 1s;
-}
-
-.Products li:hover {
-    color: #ff4d4d;
-}
-
 .Suscribe-main {
     height: 550px;
-    background-image: url(Flowers.webp);
+    background-image: url(./Media/Flowers.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -163,17 +102,6 @@ section {
 }
 
 @media screen and (max-width: 586px) {
-    header {
-        padding: 10px;
-        height: 40px;
-    }
-    header > h1,
-    .Products ul li {
-        font-size: 1.3rem;
-        padding: 0;
-        align-items: center;
-    }
-
     .Products ul {
         gap: 0;
     }
